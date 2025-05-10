@@ -1,0 +1,74 @@
+:root {
+    --text-color: #ffff;
+    --background-color: #8dd1ff;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    background-color: var(--background-color);
+    margin: 20px auto;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.navbar .logo img {
+    width: 50px;
+    height: 50px;
+    transition: 1s ease-in-out;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar .name h1 {
+    color: var(--text-color);
+    font-size: 24px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 0;
+}
+
+.name span {
+    background: -webkit-linear-gradient(#ffff, #8dd1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 🔻 Responsive düzenleme */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        height: auto;
+    }
+
+    .navbar .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar .name h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+
+.navbar .logo img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.name h1:hover{
+    transform: translateY(-10px);
+}

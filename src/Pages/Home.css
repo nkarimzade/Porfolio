@@ -1,0 +1,46 @@
+:root {
+    --text-color: #ffff;
+    --background-color: #8dd1ff;
+}
+
+.Home {
+    width: 30%;
+    min-width: 280px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 40px auto;
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Yazı stili */
+.Home h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.Home p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 🔻 Responsive düzenleme */
+@media screen and (max-width: 768px) {
+    .Home {
+        width: 80%;
+        padding: 16px;
+    }
+
+    .Home h1 {
+        font-size: 24px;
+    }
+
+    .Home p {
+        font-size: 15px;
+    }
+}
