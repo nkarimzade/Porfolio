@@ -16,24 +16,18 @@
     flex-direction: row;
     backdrop-filter: blur(10px);
     justify-content: center;
-    gap: 10px;
+    
     transition: all 0.3s ease;
 }
 
-.navbar .logo img {
-    width: 50px;
-    height: 50px;
-    transition: 1s ease-in-out;
-    border-radius: 50%;
-    object-fit: cover;
-}
+
 
 .navbar .name h1 {
     color: var(--text-color);
     font-size: 24px;
+    margin-bottom: 10px;
     transition: 1s;
     cursor: pointer;
-    margin: 0;
 }
 
 .name span {
@@ -69,6 +63,3 @@
     cursor: pointer;
 }
 
-.name h1:hover{
-    transform: translateY(-10px);
-}

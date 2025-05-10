@@ -26,7 +26,7 @@
 }
 
 .text h1 {
-    color: var(--background-color);
+    color: var(--text-color);
     display: grid;
     align-items: center;
     justify-content: center;
