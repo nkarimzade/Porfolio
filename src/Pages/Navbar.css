@@ -1,65 +1,51 @@
+
+
 :root {
-    --text-color: #ffff;
-    --background-color: #8dd1ff;
+  --text-color: #ffff;
+  --background-color: #8dd1ff;
 }
 
-.navbar {
-    width: 90%;
-    max-width: 500px;
-    height: auto;
-    background-color: var(--background-color);
-    margin: 20px auto;
-    padding: 20px;
-    align-items: center;
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 30%;
+  margin: 20px auto;
+  transition: 1s;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  height: 5vh;
+  background-color: white;
+  align-items: center; 
+}
+
+
+
+@media screen and (max-width: 720px) {
+  .logo {
     display: flex;
-    border-radius: 20px;
-    flex-direction: row;
-    backdrop-filter: blur(10px);
-    justify-content: center;
-    
-    transition: all 0.3s ease;
+    justify-content: center; 
+    grid-template-columns: 1fr; /* Tek sütun düzeni */
+    gap: 10px; /* Logo ve başlık arasındaki boşluk */
+    align-items: center;
+    padding: 15px; /* Daha fazla padding */
+    width: 80%; /* Ekrana daha uyumlu */
+    height: auto; /* Yükseklik otomatik olacak */
+  }
+
+  /* Logo boyutunu mobilde biraz büyüt */
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+ 
 }
 
-
-
-.navbar .name h1 {
-    color: var(--text-color);
-    font-size: 24px;
-    margin-bottom: 10px;
-    transition: 1s;
-    cursor: pointer;
+.logo img:hover{
+    box-shadow: 0 0 10px var(--background-color) , 0 0 20px var(--background-color) ;
 }
-
-.name span {
-    background: -webkit-linear-gradient(#ffff, #8dd1ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* 🔻 Responsive düzenleme */
-@media screen and (max-width: 600px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 15px;
-        height: auto;
-    }
-
-    .navbar .logo img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .navbar .name h1 {
-        font-size: 20px;
-        margin-top: 10px;
-    }
-}
-
-
-.navbar .logo img:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-}
-

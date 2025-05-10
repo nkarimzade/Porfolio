@@ -6,6 +6,7 @@
 .projeler {
     width: 30%;
     min-width: 280px;
+    transition: 0.4s ease-in-out;
     max-width: 600px;
     margin: 30px auto;
     text-align: center;
@@ -25,6 +26,9 @@
     margin: 10px 0;
 }
 
+.projeler ol{
+    list-style: none;
+}
 .text h1 {
     color: var(--text-color);
     display: grid;
@@ -52,4 +56,8 @@
     .text h1 {
         font-size: 24px;
     }
+}
+
+.projeler:hover{
+ transform: translateX(-20px);
 }

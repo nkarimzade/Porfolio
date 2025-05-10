@@ -1,9 +1,52 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 import './Footer.css';
 import { FaGithub, FaInstagram } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 const Footer = () => {
+  useEffect(() => {
+    ScrollReveal().reveal('.footer-logo', {
+      origin: 'top',
+      distance: '50px',
+      duration: 1000,
+      delay: 200,
+      reset: false,
+    });
+
+    ScrollReveal().reveal('.footer-text', {
+      origin: 'left',
+      distance: '40px',
+      duration: 2000,
+      delay: 300,
+      reset: false,
+    });
+
+    ScrollReveal().reveal('.footer-links a:nth-child(1)', {
+      origin: 'right',
+      distance: '30px',
+      duration: 2000,
+      delay: 400,
+      reset: false,
+    });
+
+    ScrollReveal().reveal('.footer-links a:nth-child(2)', {
+      origin: 'right',
+      distance: '30px',
+      duration: 2000,
+      delay: 600,
+      reset: false,
+    });
+
+    ScrollReveal().reveal('.footer-links a:nth-child(3)', {
+      origin: 'right',
+      distance: '30px',
+      duration: 2000,
+      delay: 800,
+      reset: false,
+    });
+  }, []);
+
   return (
     <footer className="footer">
       <div className="footer-center-logo">

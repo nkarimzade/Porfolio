@@ -6,6 +6,7 @@
 .footer {
   width: 90%;
   max-width: 800px;
+  transition: 0.4s ease-in-out;
   margin: 50px auto 20px;
   padding: 20px;
   border-radius: 30px;
@@ -79,4 +80,10 @@
     flex-direction: column;
     gap: 10px;
   }
+}
+
+
+.footer:hover{
+transform: translateY(10px);
+
 }
