@@ -1,14 +1,15 @@
-import React from 'react'
-import "./Loader.css"
+import React from 'react';
+import "./Loader.css";
 
 const Loader = () => {
 
-   
+
+    
     return (
         <div id="loading">
-            <img src="/public/load-7671.gif" alt="Yükleniyor..." />
+            <img src="/load-7671.gif" alt="Yükleniyor..." />
         </div>
-    )
+    );
 }
 
-export default Loader
+export default Loader;
