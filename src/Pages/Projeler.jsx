@@ -31,6 +31,7 @@ const Projeler = () => {
                     <li><a target='_blank' href="https://kyraxai.vercel.app">KyraxAi Yapay Zeka</a></li>
                     <li><a target='_blank' href="https://uzunoba.vercel.app">UzunOba Restoran QR-Code</a></li>
                     <li><a target='_blank' href="https://gazoz-seven.vercel.app/">Çankırı Gazozu</a></li>
+                    <li><a target='_blank' href="https://youtubevideoozet.vercel.app/">Youtube Video Özetleyici</a></li>
                 </ol>
             </div>
         </div>
