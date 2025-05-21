@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-    <Loader/>
     <Navbar/>
       <Home />
       <Projeler/>
