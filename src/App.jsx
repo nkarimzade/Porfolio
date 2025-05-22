@@ -1,5 +1,6 @@
 
 import './App.css'
+import Cv from './Pages/Cv'
 import Footer from './Pages/Footer'
 import Home from './Pages/Home'
 import Navbar from './Pages/Navbar'
@@ -10,8 +11,9 @@ function App() {
   return (
     <>
     <Navbar/>
-      <Home />
+      <Home />  
       <Projeler/>
+      <Cv/>
       <Footer/>
     </>
   )

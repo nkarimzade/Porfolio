@@ -1,0 +1,40 @@
+:root {
+  --text-color: #ffff;
+  --background-color: #8dd1ff;
+}
+
+
+.cv{
+    width: 30%;
+    margin: 20px auto;
+    height: 8vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--background-color) ;
+}
+
+.cv-button{
+    width: 90px;
+    cursor: pointer;
+    border : none;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    border-radius: 13px;
+    height: 40px;
+}
+.cv-button:hover{
+    transition: 0.6s;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid white;
+   
+}
+@media screen and (max-width:700px) {
+    .cv{
+        width: 90%;
+    }
+}

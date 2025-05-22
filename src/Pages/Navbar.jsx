@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <div className={`navbar ${scrolling ? 'scrolling' : ''}`}>
       <div className="logo">
-        <img src="/logo.jpg" alt="nk Logo" />
+        <img src="/logo - Kopya.jpg" alt="nk Logo" />
       </div>
     </div>
   );

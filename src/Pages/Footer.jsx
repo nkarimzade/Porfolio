@@ -50,7 +50,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-center-logo">
-        <img src="/logo.jpg" alt="KYRAX Logo" className="footer-logo" />
+        <img src="/logo - Kopya.jpg" alt="KYRAX Logo" className="footer-logo" />
       </div>
 
       <p className="footer-text">© 2025 nK Blog<br />Tüm hakları saklıdır.</p>

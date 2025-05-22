@@ -27,7 +27,7 @@
     white-space: nowrap;
     display: inline-block;
     position: absolute;
-    animation: marquee 20s linear infinite;
+    animation: marquee 60s linear infinite;
 }
 
 @keyframes marquee {
@@ -78,6 +78,3 @@
     }
 }
 
-.Home:hover{
- transform: translateX(20px);
-}
