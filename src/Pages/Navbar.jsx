@@ -25,7 +25,7 @@ const Navbar = () => {
       origin: 'top', // Kaydırılacak yön
       opacity: 0, // Başlangıçta görünmez olacak
       duration: 1000, // Animasyon süresi
-      reset: true, // Sayfada kaydırıldıkça tekrar başlat
+      
     });
 
     // Temizleme fonksiyonu

@@ -19,8 +19,8 @@
     width: 90px;
     cursor: pointer;
     border : none;
-    background-color: var(--text-color);
-    color: var(--background-color);
+    color: rgb(0, 22, 48);
+    ground-color: var(--text-color);
     font-weight: bold;
     transition: 0.4s ease-in-out;
     border-radius: 13px;

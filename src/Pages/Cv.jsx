@@ -23,8 +23,7 @@ const Cv = () => {
             distance: '40px',
             origin: 'bottom',
             opacity: 0,
-            duration: 1500,
-            reset: true,
+            duration: 1500
         });
 
         ScrollReveal().reveal('.cv-button', {
@@ -32,8 +31,7 @@ const Cv = () => {
             distance: '50px',
             origin: 'right',
             opacity: 0,
-            duration: 2000,
-            reset: true,
+            duration: 2000
         });
 
         return () => window.removeEventListener('scroll', handleScroll);
