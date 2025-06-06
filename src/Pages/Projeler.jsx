@@ -36,6 +36,15 @@ const Projeler = () => {
                     </p>
                 </li>
                 <li>
+                    <a href="https://myweatherapp-nk.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        MyWeatherApp
+                    </a>
+                    <p>
+                        ➤ Gerçek zamanlı hava durumu bilgilerini sunan bu web uygulaması, kullanıcıların konumlarına göre anlık sıcaklık, nem, rüzgar gibi verilere erişmesini sağlar. Kullanıcı dostu arayüzüyle sade ve hızlı bir deneyim sunar.
+                    </p>
+                </li>
+
+                <li>
                     <a href="https://uzunoba.vercel.app" target="_blank" rel="noopener noreferrer">
                         UzunOba Restoran QR-Code
                     </a>
