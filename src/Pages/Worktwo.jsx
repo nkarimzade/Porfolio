@@ -43,7 +43,7 @@ function Worktwo() {
       </div>
 
       <div className="proje-tanitim">
-        <a target="_blank" className="Tittle" href="https://cankiri-gazozu.vercel.app/">Çankırı Soda</a>
+        <a target="_blank" className="Tittle" href="https://gazoz-seven.vercel.app/">Çankırı Soda</a>
         <br /><br />
         <p className="paragraf">
           This promotional website was created to showcase Çankırı’s local soda brand. It presents the brand identity, product variety, and contact information with a stylish and elegant design.

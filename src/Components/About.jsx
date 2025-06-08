@@ -3,6 +3,7 @@ import './About.css';
 import { SiGmail } from "react-icons/si";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import { FaSuperpowers } from "react-icons/fa6";
 import ScrollReveal from 'scrollreveal';
 
 function About() {
@@ -41,9 +42,12 @@ function About() {
                 </p>
                 <br /><br /><br />
                 <div className="butons">
-                    <a href="mailto:nesibkerimzade@gmail.com" className="btn"><SiGmail /> Gmail ㅤ </a>
-                    <a href="https://github.com/nkarimzade" className="btn"><FaGithub /> Github</a>
-                    <a href="https://www.linkedin.com/in/nasib-karimzade-7902352a5/" className="btn"><CiLinkedin /> Linkedln</a>
+                    <a href="mailto:nesibkerimzade@gmail.com" className="btn"><SiGmail /> Gmail  <FaSuperpowers />
+                    </a>
+                    <a href="https://github.com/nkarimzade" className="btn"><FaGithub />  Github <FaSuperpowers />
+                    </a>
+                    <a href="https://www.linkedin.com/in/nasib-karimzade-7902352a5/" className="btn"><CiLinkedin /> Linkedin <FaSuperpowers />
+                    </a>
                 </div>
             </div>
         </div>
