@@ -62,10 +62,10 @@ function Work() {
                 <br />
                 <div className="dot-container">• • •</div>
             </div>
-            <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center' }}>
+            <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center', marginBottom: '50px' }}>
                 <Link to="/work" className="btn page-link"> <FaChevronLeft />
                 </Link>
-                <p className='page-link' >Page 1 of 2</p>
+                <p className='page-link' >Page  of 1</p>
 
                 <Link to="/worktwo" className="btn page-link">
                     <FaChevronRight />
