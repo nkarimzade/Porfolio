@@ -1,0 +1,49 @@
+.about {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+.butons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* responsive için satır kaydırma */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+    border: 1px solid #555; /* görünürlük için sınır */
+}
+
+.btn:hover {
+    background-color: #444;
+}
+
+/* Responsive düzenleme */
+@media (max-width: 600px) {
+    .butons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn {
+        justify-content: center;
+        width: 100%;
+    }
+}
