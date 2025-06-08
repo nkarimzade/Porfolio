@@ -18,7 +18,8 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="left">
-        <img src="/logo - Kopya.jpg" alt="Logo" className="logo" />
+        <a href="https://nasibkarimzade.vercel.app/">
+        <img src="/logo - Kopya.jpg" alt="Logo" className="logo" /></a>
         <div className="text">
           <strong>Nasib Karimzade</strong><br />
           Full Stack Web Developer
