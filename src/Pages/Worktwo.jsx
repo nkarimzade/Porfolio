@@ -22,7 +22,7 @@ function Worktwo() {
       origin: 'bottom',
       distance: '40px',
       duration: 800,
-      delay: 500,
+      delay: 50,
       easing: 'ease-in-out',
       reset: false
     });
@@ -59,7 +59,7 @@ function Worktwo() {
         }}>
         <Link to="/work" className="btn page-link"><FaChevronLeft />
         </Link>
-        <p className='page-link' >Page  of 2 </p>
+        <p className='page-link' >Page 2</p>
 
         <Link to="/worktwo" className="btn page-link">
           <FaChevronRight />

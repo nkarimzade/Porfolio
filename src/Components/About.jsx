@@ -37,13 +37,13 @@ function About() {
                 <br />
                 <p>
                     Outside of development, I like creating minimalist tools that tackle common web development challenges and streamline workflows.
-                    I believe in staying curious, building boldly, and always moving forward. <strong>Hay ay Nasib.</strong>
+                    I believe in staying curious, building boldly, and always moving forward.
                 </p>
                 <br /><br /><br />
                 <div className="butons">
-                    <a href="mailto:nesibkerimzade@gmail.com" className="btn"><SiGmail /> GMail</a>
+                    <a href="mailto:nesibkerimzade@gmail.com" className="btn"><SiGmail /> Gmail ㅤ </a>
                     <a href="https://github.com/nkarimzade" className="btn"><FaGithub /> Github</a>
-                    <a href="https://www.linkedin.com/in/nasib-karimzade-7902352a5/" className="btn"><CiLinkedin /> Linkedin</a>
+                    <a href="https://www.linkedin.com/in/nasib-karimzade-7902352a5/" className="btn"><CiLinkedin /> Linkedln</a>
                 </div>
             </div>
         </div>

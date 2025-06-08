@@ -21,7 +21,7 @@ function Work() {
             origin: 'bottom',
             distance: '40px',
             duration: 800,
-            delay: 500,
+            delay: 50,
             easing: 'ease-in-out',
             reset: false
         });
@@ -65,7 +65,7 @@ function Work() {
             <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center', marginBottom: '50px' }}>
                 <Link to="/work" className="btn page-link"> <FaChevronLeft />
                 </Link>
-                <p className='page-link' >Page  of 1</p>
+                <p className='page-link' >Page 1</p>
 
                 <Link to="/worktwo" className="btn page-link">
                     <FaChevronRight />
