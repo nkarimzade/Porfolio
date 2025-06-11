@@ -16,7 +16,7 @@ function App() {
         <Navbarr />
 
         <div className="content">
-          <br /><br /> <br />
+          <br />
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/work" element={<Work />} />

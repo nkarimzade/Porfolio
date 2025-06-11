@@ -10,10 +10,16 @@
     font-family: "Poppins", sans-serif;
 }
 
+body.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+
 .App {
     min-height: 100vh;
     display: flex;
-    width: 30%;
+    width: 33%;
     margin: 0 auto;
     flex-direction: column;
     background-color: #030303;
