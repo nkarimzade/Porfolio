@@ -19,9 +19,9 @@ function Work() {
         });
         ScrollReveal().reveal('.page-link', {
             origin: 'bottom',
-            distance: '40px',
+            distance: '50px',
             duration: 800,
-            delay: 50,
+            delay: 100,
             easing: 'ease-in-out',
             reset: false
         });
@@ -63,12 +63,16 @@ function Work() {
                 <div className="dot-container">• • •</div>
             </div>
             <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center', marginBottom: '50px' }}>
-                <Link to="/work" className="btn page-link"> <FaChevronLeft />
+                <Link to="/work" className=" page-link"> <div className="page-link">
+                    <FaChevronLeft />
+                </div>
                 </Link>
                 <p className='page-link' >Page 1</p>
 
-                <Link to="/worktwo" className="btn page-link">
-                    <FaChevronRight />
+                <Link to="/worktwo" className=" page-link">
+                    <div className="page-link">
+                        <FaChevronRight />
+                    </div>
                 </Link>
 
             </div>

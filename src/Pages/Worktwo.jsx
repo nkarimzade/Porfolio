@@ -57,12 +57,17 @@ function Worktwo() {
       <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center',
         marginBottom: '50px'
         }}>
-        <Link to="/work" className="btn page-link"><FaChevronLeft />
+        <Link to="/work" className=" page-link">
+        <div className="page-link">
+          <FaChevronLeft />
+        </div>
         </Link>
         <p className='page-link' >Page 2</p>
 
-        <Link to="/worktwo" className="btn page-link">
-          <FaChevronRight />
+        <Link to="/worktwo" className=" page-link">
+          <div className="page-link">
+            <FaChevronRight />
+          </div>
         </Link>
 
       </div>
