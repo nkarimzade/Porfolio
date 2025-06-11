@@ -1,16 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 
 function Loader() {
-    window.addEventListener('load', fg_load)
+    useEffect(() => {
+        function fg_load() {
+            const loadingEl = document.getElementById('loading');
+            if (loadingEl) {
+                loadingEl.style.display = 'none';
+            }
+        }
 
-    function fg_load() {
-        document.getElementById('loading').style.display = 'none'
-    }
+        window.addEventListener('load', fg_load);
+
+        return () => {
+            window.removeEventListener('load', fg_load);
+        };
+    }, []);
+
     return (
         <div id="loading">
             <img src="loader.gif" alt="Loading..." />
         </div>
-    )
+    );
 }
 
-export default Loader
+export default Loader;
