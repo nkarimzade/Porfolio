@@ -63,7 +63,7 @@ function Work() {
                 <div className="dot-container">• • •</div>
             </div>
             <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center', marginBottom: '50px' }}>
-                <Link to="/work" className=" page-link"> <div >
+                <Link to="/project" className=" page-link"> <div >
                     <FaChevronLeft />
                 </div>
                 </Link>
