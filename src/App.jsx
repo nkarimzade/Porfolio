@@ -6,12 +6,10 @@ import Blog from './Pages/Blog';
 import Worktwo from './Pages/Worktwo';
 import './App.css';
 import Navbarr from './Components/Navbarr';
-import Loader from './Pages/Loader';
 
 function App() {
   return (
     <Router>
-      <Loader />
       <div className="App">
         <Navbar />
         <br />
