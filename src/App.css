@@ -38,8 +38,8 @@ body.dark {
 
 .thin-line-horizontal {
     width: 100%;
-    height: 1px;
-    background-color: #888;
+    height: 0.1px;
+    background-color: #333333;
     margin: 20px 0;
 }
 

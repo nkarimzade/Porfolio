@@ -9,7 +9,7 @@ function Navbarr() {
       <div className="navbar2">
         <ul>
           <li><Link to="/">about</Link></li>
-          <li><Link to="/work">work</Link></li>
+          <li><Link to="/project">project</Link></li>
           <li><Link to="/blog">cv</Link></li>
         </ul>
       </div>
