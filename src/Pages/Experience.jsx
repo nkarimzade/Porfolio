@@ -21,7 +21,7 @@ function Blog() {
 
        <div className="experince">
       <div className="logo">
-        <img src="/public/sade-pp.jpg" alt="Sade Media Logo" />
+        <img src="/sade-pp.jpg" alt="Sade Media Logo" />
       </div>
       <div className="about">
         <strong>Full-Stack Web Developer</strong>
