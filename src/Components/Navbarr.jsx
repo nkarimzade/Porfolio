@@ -10,7 +10,7 @@ function Navbarr() {
         <ul>
           <li><Link to="/">about</Link></li>
           <li><Link to="/project">project</Link></li>
-          <li><Link to="/blog">cv</Link></li>
+          <li><Link to="/experience">experience</Link></li>
         </ul>
       </div>
     </div>

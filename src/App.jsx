@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Work from './Pages/Work';
-import Blog from './Pages/Blog';
+import Experince from './Pages/Experience';
 import Worktwo from './Pages/Worktwo';
 import './App.css';
 import Navbarr from './Components/Navbarr';
@@ -21,7 +21,7 @@ function App() {
             <Route path="/" element={<About />} />
             <Route path="/project" element={<Work />} />
             <Route path="/worktwo" element={<Worktwo />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/experience" element={<Experince />} />
 
           </Routes>
         </div>

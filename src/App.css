@@ -11,8 +11,8 @@
 }
 
 body.dark {
-  background-color: #000;
-  color: #fff;
+    background-color: #000;
+    color: #fff;
 }
 
 
@@ -100,5 +100,76 @@ body.dark {
 
     .content {
         padding: 10px;
+    }
+}
+
+.experince {
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+}
+
+.experince .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.about strong {
+    font-weight: bold;
+}
+
+.experince .about p,
+.experince span {
+    color: darkgray;
+}
+
+.about h5 {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .experince {
+        flex-direction: column;
+        align-items: left;
+        text-align: center;
+    }
+
+    .experince .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .about h5 {
+        font-size: 16px;
+    }
+
+    .about p,
+    .experince span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .experince {
+        gap: 10px;
+        padding: 5px;
+    }
+
+    .experince .logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .about h5 {
+        font-size: 14px;
+    }
+
+    .about p,
+    .experince span {
+        font-size: 13px;
     }
 }
