@@ -39,7 +39,26 @@ function Work() {
                 <div class="dot-container">• • •</div>
 
             </div>
+            <br />
 
+            <div className="proje-tanitim">
+                <a target="_blank" className="Tittle" href="https://cybersecurityedu.vercel.app/">
+                    CyberSecurityEdu – Interactive Software Development Training Platform
+                </a>
+                <br /><br />
+                <p className="paragraf">
+                    CyberSecurityEdu is a task-based learning platform designed for developers who want to gain hands-on experience in software and cybersecurity.
+                    Through realistic terminal simulations, a progressive mission system, and an active developer community, users enhance their skills in a fully interactive environment.
+                </p>
+                <br />
+
+
+                <p className="tarih">June 19, 2025 ·</p>
+                <br />
+                <div className="dot-container">• • •</div>
+            </div>
+
+            <br />
             <div className="proje-tanitim">
                 <a target='_blank' className="Tittle" href="https://myweatherapp-nk.vercel.app/">MyWeatherApp</a>
                 <br /><br />
@@ -51,17 +70,7 @@ function Work() {
                 <br />
                 <div className="dot-container">• • •</div>
             </div>
-            <div className="proje-tanitim">
-                <a target='_blank' className="Tittle" href="https://uzunoba.vercel.app/">UzunOba Restorant QR-Code</a>
-                <br /><br />
-                <p className="paragraf">
-                    This web application is specially designed for restaurants, allowing them to present their menu through a QR code. Customers can scan the code placed on the table to access the digital menu and view detailed product information.
-                </p>
-                <br />
-                <p className="tarih">4 February  , 2025 ·</p>
-                <br />
-                <div className="dot-container">• • •</div>
-            </div>
+
             <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center', marginBottom: '50px' }}>
                 <Link to="/project" className=" page-link"> <div >
                     <FaChevronLeft />
@@ -76,7 +85,7 @@ function Work() {
                 </Link>
 
             </div>
-<br />
+            <br />
         </div>
     )
 }

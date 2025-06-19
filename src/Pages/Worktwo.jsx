@@ -41,7 +41,7 @@ function Worktwo() {
         <br />
         <div className="dot-container">• • •</div>
       </div>
-
+      <br />
       <div className="proje-tanitim">
         <a target="_blank" className="Tittle" href="https://gazoz-seven.vercel.app/">Çankırı Soda</a>
         <br /><br />
@@ -52,6 +52,18 @@ function Worktwo() {
         <p className="tarih">8 May , 2025 ·</p>
         <br />
         <div className="dot-container">• • •</div>
+        <br />
+        <div className="proje-tanitim">
+          <a target='_blank' className="Tittle" href="https://uzunoba.vercel.app/">UzunOba Restorant QR-Code</a>
+          <br /><br />
+          <p className="paragraf">
+            This web application is specially designed for restaurants, allowing them to present their menu through a QR code. Customers can scan the code placed on the table to access the digital menu and view detailed product information.
+          </p>
+          <br />
+          <p className="tarih">4 February  , 2025 ·</p>
+          <br />
+          <div className="dot-container">• • •</div>
+        </div>
       </div>
 
       <div style={{
