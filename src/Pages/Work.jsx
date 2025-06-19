@@ -42,7 +42,7 @@ function Work() {
             <br />
 
             <div className="proje-tanitim">
-                <a target="_blank" className="Tittle" href="https://cybersecurityedu.vercel.app/">
+                <a target="_blank" className="Tittle" href="https://cybersecuriyedu.vercel.app/">
                     CyberSecurityEdu – Interactive Software Development Training Platform
                 </a>
                 <br /><br />
