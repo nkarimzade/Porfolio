@@ -51,13 +51,10 @@ function Work() {
                     Through realistic terminal simulations, a progressive mission system, and an active developer community, users enhance their skills in a fully interactive environment.
                 </p>
                 <br />
-
-
                 <p className="tarih">June 19, 2025 ·</p>
                 <br />
                 <div className="dot-container">• • •</div>
             </div>
-
             <br />
             <div className="proje-tanitim">
                 <a target='_blank' className="Tittle" href="https://myweatherapp-nk.vercel.app/">MyWeatherApp</a>
@@ -70,7 +67,6 @@ function Work() {
                 <br />
                 <div className="dot-container">• • •</div>
             </div>
-
             <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center', marginBottom: '50px' }}>
                 <Link to="/project" className=" page-link"> <div >
                     <FaChevronLeft />

@@ -18,31 +18,37 @@ function Blog() {
 
   return (
     <div>
-
-       <div className="experince">
-      <div className="logo">
-        <img src="/sade-pp.jpg" alt="Sade Media Logo" />
+      <div className="experince-text">
+        <h2>On a mission to create impactful applications that engage users and drive value for businesses. Here's a summary of my journey so far.
+        </h2>
       </div>
-      <div className="about">
-        <strong>Full-Stack Web Developer</strong>
-        <h5>sADe Media · Part-time</h5>
-        <br />
-        <p>
-          May 2025 - Present · 2 months <br />
-          Çankırı, Türkiye · Hybrid <br /><br />
-          Full Stack Web Developer | Sade Media Reklam
-        </p>
-        <br />
-        <span>
-          • I work as a full stack developer on various digital projects for the company. <br />
-          • I build dynamic and user-friendly web applications using technologies like React.js, Next.js, Node.js, and PHP. <br />
-          • I develop RESTful APIs and integrate them with existing systems. <br />
-          • I implement modern, UI/UX-focused designs, ensuring mobile responsiveness and performance optimization. <br />
-          • I follow Agile methodologies using tools like Git and Trello to manage and track project progress. <br />
-          • I maintain strong team communication and ensure efficient remote workflows.
-        </span>
+      <br />
+      <div className="thin-line-horizontal"></div>
+      <br />
+      <div className="experince">
+        <div className="logo">
+          <img src="/sade-pp.jpg" alt="Sade Media Logo" />
+        </div>
+        <div className="about">
+          <strong>Full-Stack Web Developer</strong>
+          <h5>sADe Media · Part-time</h5>
+          <br />
+          <p>
+            May 2025 - July 2025 · 2 months <br />
+            Çankırı, Türkiye · Hybrid <br /><br />
+            Full Stack Web Developer | Sade Media Reklam
+          </p>
+          <br />
+          <span>
+            • I work as a full stack developer on various digital projects for the company. <br />
+            • I build dynamic and user-friendly web applications using technologies like React.js, Next.js, Node.js, and PHP. <br />
+            • I develop RESTful APIs and integrate them with existing systems. <br />
+            • I implement modern, UI/UX-focused designs, ensuring mobile responsiveness and performance optimization. <br />
+            • I follow Agile methodologies using tools like Git and Trello to manage and track project progress. <br />
+            • I maintain strong team communication and ensure efficient remote workflows.
+          </span>
+        </div>
       </div>
-    </div>
       <br />
       <div className="thin-line-horizontal"></div>
 
@@ -73,7 +79,7 @@ function Blog() {
           </span>
         </div>
       </div>
-<br />
+      <br />
     </div>
 
 

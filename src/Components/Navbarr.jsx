@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom';
 
 function Navbarr() {
-
-  
-
   return (
     <div>
       <div className="navbar2">

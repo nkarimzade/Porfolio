@@ -15,6 +15,9 @@ body.dark {
     color: #fff;
 }
 
+.experince-text h2{
+    font-size: 17px;
+}
 
 .App {
     min-height: 100vh;
