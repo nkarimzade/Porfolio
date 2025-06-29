@@ -6,7 +6,7 @@ function Navbarr() {
       <div className="navbar2">
         <ul>
           <li><Link to="/">about</Link></li>
-          <li><Link to="/project">project</Link></li>
+          <li><Link to="/work">project</Link></li>
           <li><Link to="/experience">experience</Link></li>
         </ul>
       </div>

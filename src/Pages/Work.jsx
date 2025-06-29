@@ -57,18 +57,21 @@ function Work() {
             </div>
             <br />
             <div className="proje-tanitim">
-                <a target='_blank' className="Tittle" href="https://myweatherapp-nk.vercel.app/">MyWeatherApp</a>
+                <a target="_blank" className="Tittle" href="https://krioborsa.vercel.app/">
+                    KRIO Exchange
+                </a>
                 <br /><br />
                 <p className="paragraf">
-                    This web application provides real-time weather data, allowing users to access live information such as temperature, humidity, and wind based on their location. With its user-friendly interface, it offers a clean and fast experience.
+                    KRIO Exchange is a modern platform where users can track real-time prices and charts of cryptocurrencies. It is fast, secure, and user-friendly.
                 </p>
                 <br />
-                <p className="tarih">28 April, 2025 ·</p>
+                <p className="tarih">29 June, 2025 ·</p>
                 <br />
                 <div className="dot-container">• • •</div>
             </div>
+
             <div style={{ textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center', marginBottom: '50px' }}>
-                <Link to="/project" className=" page-link"> <div >
+                <Link to="/work" className=" page-link"> <div >
                     <FaChevronLeft />
                 </div>
                 </Link>

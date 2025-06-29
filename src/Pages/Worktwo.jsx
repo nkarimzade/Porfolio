@@ -31,6 +31,17 @@ function Worktwo() {
   return (
     <div>
       <div className="proje-tanitim">
+        <a target='_blank' className="Tittle" href="https://myweatherapp-nk.vercel.app/">MyWeatherApp</a>
+        <br /><br />
+        <p className="paragraf">
+          This web application provides real-time weather data, allowing users to access live information such as temperature, humidity, and wind based on their location. With its user-friendly interface, it offers a clean and fast experience.
+        </p>
+        <br />
+        <p className="tarih">28 April, 2025 ·</p>
+        <br />
+        <div className="dot-container">• • •</div>
+      </div>
+      <div className="proje-tanitim">
         <a target="_blank" className="Tittle" href="https://youtubevideoozet.vercel.app/">YouTube Video Summarizer</a>
         <br /><br />
         <p className="paragraf">
@@ -53,31 +64,21 @@ function Worktwo() {
         <br />
         <div className="dot-container">• • •</div>
         <br />
-        <div className="proje-tanitim">
-          <a target='_blank' className="Tittle" href="https://uzunoba.vercel.app/">UzunOba Restorant QR-Code</a>
-          <br /><br />
-          <p className="paragraf">
-            This web application is specially designed for restaurants, allowing them to present their menu through a QR code. Customers can scan the code placed on the table to access the digital menu and view detailed product information.
-          </p>
-          <br />
-          <p className="tarih">4 February  , 2025 ·</p>
-          <br />
-          <div className="dot-container">• • •</div>
-        </div>
+
       </div>
 
       <div style={{
         textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center',
         marginBottom: '50px'
       }}>
-        <Link to="/project" className=" page-link">
+        <Link to="/work" className=" page-link">
           <div >
             <FaChevronLeft />
           </div>
         </Link>
         <p className='page-link' >Page 2</p>
 
-        <Link to="/worktwo" className=" page-link">
+        <Link to="/workthree" className=" page-link">
           <div >
             <FaChevronRight />
           </div>
