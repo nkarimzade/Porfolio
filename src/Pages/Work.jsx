@@ -30,6 +30,17 @@ function Work() {
     return (
         <div>
             <div className="proje-tanitim">
+                <a target="_blank" className="Tittle" href="https://krisoft.shop">Krisoft Software Company Website</a>
+                <br /><br />
+                <p className="paragraf">
+                    A corporate website created for Krisoft Software Company to showcase services, products, and contact information with a professional design.
+                </p>
+                <br />
+                <p className="tarih">March 10, 2025 ·</p>
+                <br />
+                <div className="dot-container">• • •</div>
+            </div>
+            <div className="proje-tanitim">
                 <a target='_blank' className='Tittle' href="https://kyraxai.vercel.app/">KyraxAI Artificial Intelligence</a>
                 <br /> <br />
                 <p className='paragraf'>This project is an AI-driven chat interface that enables users to engage in text-based conversations, similar to ChatGPT. It features a sleek and modern UI/UX design to ensure an intuitive and seamless user experience.</p>

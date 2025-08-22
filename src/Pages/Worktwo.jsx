@@ -31,27 +31,17 @@ function Worktwo() {
   return (
     <div>
       <div className="proje-tanitim">
-        <a target='_blank' className="Tittle" href="https://myweatherapp-nk.vercel.app/">MyWeatherApp</a>
+        <a target="_blank" className="Tittle" href="https://naxauto.shop">NaxAuto – Nakhchivan Car Listing Platform</a>
         <br /><br />
         <p className="paragraf">
-          This web application provides real-time weather data, allowing users to access live information such as temperature, humidity, and wind based on their location. With its user-friendly interface, it offers a clean and fast experience.
+          A modern car listing platform developed for the Nakhchivan region. Users can post, search, and filter car advertisements. Designed with a responsive layout and a user-friendly interface.
         </p>
         <br />
-        <p className="tarih">28 April, 2025 ·</p>
+        <p className="tarih">April 1, 2025 ·</p>
         <br />
         <div className="dot-container">• • •</div>
       </div>
-      <div className="proje-tanitim">
-        <a target="_blank" className="Tittle" href="https://youtubevideoozet.vercel.app/">YouTube Video Summarizer</a>
-        <br /><br />
-        <p className="paragraf">
-          This tool allows users to input a YouTube video link and receive an AI-generated summary of its content. It saves time and provides quick access to key information.
-        </p>
-        <br />
-        <p className="tarih">29 March , 2025 ·</p>
-        <br />
-        <div className="dot-container">• • •</div>
-      </div>
+
       <br />
       <div className="proje-tanitim">
         <a target="_blank" className="Tittle" href="https://cankirigazozu.com.tr">Cankiri Soda</a>
@@ -66,7 +56,17 @@ function Worktwo() {
         <br />
 
       </div>
-
+      <div className="proje-tanitim">
+        <a target="_blank" className="Tittle" href="https://sademedyareklam.com.tr/">SadeMedya Advertising Agency Website</a>
+        <br /><br />
+        <p className="paragraf">
+          A professional corporate website developed for SadeMedya, a creative advertising agency. The platform highlights the agency’s services, portfolio, and innovative approach to digital marketing.
+        </p>
+        <br />
+        <p className="tarih">January 20, 2025 ·</p>
+        <br />
+        <div className="dot-container">• • •</div>
+      </div>
       <div style={{
         textAlign: 'center', marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '20px', alignItems: 'center',
         marginBottom: '50px'
