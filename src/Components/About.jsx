@@ -23,24 +23,19 @@ function About() {
         <div className='about'>
             <div className="text-one">
                 <h3>Hi, I'm Nasib.</h3>
-                <br /><br />
                 <p>
                     I'm a Full Stack Web Developer passionate about building modern and responsive web applications.
                     I work independently on diverse digital projects, turning ideas into real-world solutions using both frontend and backend technologies.
                 </p>
-                <br />
                 <div className="thin-line-horizontal"></div>
-                <br />
                 <p>
                     I’m always exploring new tools and frameworks to enhance my skills. I enjoy solving real problems with clean code,
                     thoughtful design, and efficient user experiences.
                 </p>
-                <br />
                 <p>
                     Outside of development, I like creating minimalist tools that tackle common web development challenges and streamline workflows.
                     I believe in staying curious, building boldly, and always moving forward.
                 </p>
-                <br />
                 <div className="butons">
                     <a href="mailto:nesibkerimzade@gmail.com" className="btn">
                         <span className="left">
@@ -59,7 +54,7 @@ function About() {
                         </div>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/nasib-karimzade-7902352a5/" className="btn" target="_blank">
+                    <a href="https://www.linkedin.com/in/nesib-kerimzade-7902352a5/" className="btn" target="_blank">
                         <span className="left">
                             <CiLinkedin /> LinkedIn
                         </span>
