@@ -1,6 +1,12 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
-import {  useMotionValue, useAnimationFrame, useTransform } from 'motion/react';
+import {
+  motion,
+  useMotionValue,
+  useAnimationFrame,
+  useTransform
+} from 'framer-motion';
 import './ShinyText.css';
+
 
 const ShinyText = ({
   text,
