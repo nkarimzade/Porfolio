@@ -39,7 +39,7 @@ function Sidebar({ darkMode, toggleTheme }: SidebarProps) {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
             </span>
             <span className="sm:text-sm text-xs font-medium whitespace-nowrap">
-              Available <span className="sm:inline-block">for hire</span>
+              Available <span className="sm:inline-block">for work</span>
             </span>
           </div>
           <button
@@ -107,7 +107,7 @@ function Sidebar({ darkMode, toggleTheme }: SidebarProps) {
       <div className="max-w-[420px] xl:mt-0 mt-6">
         <div className="flex flex-row items-center sm:justify-between sm:gap-4 gap-2 sm:text-sm text-xs">
           <a
-            href="mailto:muradbalazade@yahoo.com"
+            href="mailto:nesib@nabusoft.com"
             className="inline-flex text-xs items-center gap-2 px-3 py-2 rounded-full bg-black/5 text-black/70 ring-1 ring-black/10 hover:bg-black/10 hover:ring-black/20 dark:bg-white/10 dark:text-white/70 dark:ring-white/15 dark:hover:bg-white/15 transition-colors"
           >
             <FaMailBulk className="w-3.5 h-3.5" />
