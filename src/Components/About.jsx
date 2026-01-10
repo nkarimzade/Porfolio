@@ -24,7 +24,7 @@ function About() {
             <div className="text-one">
                 <h3>Hi, I'm Nasib.</h3>
                 <p>
-                    I'm a Full Stack Web Developer passionate about building modern and responsive web applications.
+                    I'm a Full Stack Developer passionate about building modern and responsive web applications.
                     I work independently on diverse digital projects, turning ideas into real-world solutions using both frontend and backend technologies.
                 </p>
                 <div className="thin-line-horizontal"></div>
