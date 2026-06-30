@@ -41,7 +41,7 @@ const projects = [
     dropdownItems: [
       { label: "Play Store", comingSoon: true },
       { label: "App Store", comingSoon: true },
-      { label: "Huawei App Gallery", comingSoon: true },
+      { label: "Huawei App Gallery", href: "https://appgallery.huawei.com/app/C117963941" },
     ] satisfies ProjectDropdownItem[],
   },
   {
@@ -106,6 +106,18 @@ const projects = [
       "Official corporate website for Nabusoft Digital Solutions — showcasing services, digital products, and the team with a modern, responsive design and clear enterprise positioning.",
     links: { live: "https://nabusoft.com", code: "#" },
     image: "/p6.png",
+    cta: "Live Project",
+    useDropdown: false,
+    showLive: true,
+    showCode: false,
+  },
+  {
+    title: "Dereli Grup",
+    stack: "React.js / Next.js / TypeScript",
+    description:
+      "Corporate website for Dereli Grup — a modern, responsive digital presence presenting the group's services, divisions, and brand identity with a clean enterprise-focused user experience.",
+    links: { live: "https://dereligrup.com", code: "#" },
+    image: "/p7.png",
     cta: "Live Project",
     useDropdown: false,
     showLive: true,
