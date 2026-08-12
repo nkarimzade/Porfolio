@@ -58,13 +58,23 @@ const About = () => {
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
               Education
             </h3>
-            <div className="flex flex-col">
-              <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Computer Engineering
-              </p>
-              <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                Turkey
-              </p>
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col">
+                <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
+                  Computer Engineering
+                </p>
+                <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
+                  Bachelor&apos;s Degree — Turkey
+                </p>
+              </div>
+              <div className="flex flex-col">
+                <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
+                  Electrical and Electronics Engineering
+                </p>
+                <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
+                  Master&apos;s Degree — Turkey
+                </p>
+              </div>
             </div>
           </motion.div>
 

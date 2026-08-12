@@ -116,8 +116,23 @@ const projects = [
     stack: "React.js / Next.js / TypeScript",
     description:
       "Corporate website for Dereli Grup — a modern, responsive digital presence presenting the group's services, divisions, and brand identity with a clean enterprise-focused user experience.",
-    links: { live: "https://dereligrup.com", code: "#" },
+    links: { live: "#", code: "#" },
     image: "/p7.png",
+    cta: "Archived",
+    useDropdown: true,
+    showLive: false,
+    showCode: false,
+    dropdownItems: [
+      { label: "Website", comingSoon: true },
+    ] satisfies ProjectDropdownItem[],
+  },
+  {
+    title: "Muhammed Erguvan — Clinical Psychologist",
+    stack: "React / Next.js / TypeScript / Tailwind CSS",
+    description:
+      "Online appointment and therapy website for Specialist Clinical Psychologist Muhammed Erguvan — booking flow, session info, expertise areas, and a calm, trust-focused patient experience for Istanbul-based online and in-person counseling.",
+    links: { live: "https://muhammederguvan.com", code: "#" },
+    image: "/p8.png",
     cta: "Live Project",
     useDropdown: false,
     showLive: true,

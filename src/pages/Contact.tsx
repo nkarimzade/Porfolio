@@ -1,7 +1,8 @@
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
 
-const SMTP_API_URL = import.meta.env.VITE_SMTP_API_URL || "http://localhost:3001/api/contact";
+const FORMSUBMIT_URL =
+  import.meta.env.VITE_FORMSUBMIT_URL || "https://formsubmit.co/el/yigana";
 
 const SlideToSend = ({ status, onSend, isFormValid }: { status: string; onSend: (e: React.FormEvent) => void; isFormValid: boolean }) => {
   const trackRef = useRef<HTMLDivElement>(null);
@@ -113,13 +114,44 @@ const Contact = () => {
     setStatus("sending");
 
     try {
-      const res = await fetch(SMTP_API_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+      // FormSubmit /el/ endpoints don't support AJAX CORS — post via hidden iframe instead
+      const iframeName = "formsubmit_iframe";
+      let iframe = document.querySelector<HTMLIFrameElement>(`iframe[name="${iframeName}"]`);
+      if (!iframe) {
+        iframe = document.createElement("iframe");
+        iframe.name = iframeName;
+        iframe.title = "Hidden form submit";
+        iframe.style.display = "none";
+        document.body.appendChild(iframe);
+      }
+
+      const form = document.createElement("form");
+      form.method = "POST";
+      form.action = FORMSUBMIT_URL;
+      form.target = iframeName;
+      form.style.display = "none";
+
+      const fields: Record<string, string> = {
+        name: `${formData.firstName} ${formData.lastName}`.trim(),
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+        _subject: `Portfolio Contact: ${formData.subject}`,
+        _template: "table",
+        _captcha: "false",
+      };
+
+      Object.entries(fields).forEach(([key, value]) => {
+        const input = document.createElement("input");
+        input.type = "hidden";
+        input.name = key;
+        input.value = value;
+        form.appendChild(input);
       });
 
-      if (!res.ok) throw new Error("Server error");
+      document.body.appendChild(form);
+      form.submit();
+      document.body.removeChild(form);
 
       setStatus("success");
       setFormData({ firstName: "", lastName: "", email: "", subject: "", message: "" });
